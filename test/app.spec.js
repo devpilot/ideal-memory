@@ -5,7 +5,7 @@ describe('substraction', () => {
     expect(sub(2, 1)).toBe(1);
   });
   test('substract 2 - 1 to not equal 3', () => {
-    expect(sub(2, 1)).not.toBe(1);
+    expect(sub(2, 1)).not.toBe(3);
   });
 
   test('substract 2 - 1 to not equal 2', () => {
